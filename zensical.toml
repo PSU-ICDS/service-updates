@@ -20,11 +20,15 @@ Copyright &copy; 2026 The authors
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "System Outages" = "outage-process.md" },
-  { "Software Stack Update 2026-06" = "2026-06.md" },
-  { "Planned Outage 2026-01-08" = "2026-01-08.md" },
-  { "Planned Outage 2025-08-13" = "2025-08-13.md" },
-  { "Planned Outage 2025-05-14" = "2025-05-14.md" },
+  { "Scheduled Outage Process" = "index.md" },
+  { "2026" = [
+    { "Software Stack Update 2026-06" = "2026-06.md" },
+    { "Planned Outage 2026-01-08" = "2026-01-08.md" },
+  ]},
+  { "2025" = [
+    { "Planned Outage 2025-08-13" = "2025-08-13.md" },
+    { "Planned Outage 2025-05-14" = "2025-05-14.md" },
+  ]},
 ]
 
 # Read more: https://zensical.org/docs/customization/#additional-css

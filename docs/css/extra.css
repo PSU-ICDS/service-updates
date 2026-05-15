@@ -1,0 +1,127 @@
+.wy-side-nav-search {
+  background: #FFFFFF;
+}
+
+.wy-nav-side {
+  font-weight: 1000;
+}
+
+.toctree-l1 {
+  font-size: 16px;
+}
+
+.toctree-l2 {
+  font-size: 14px;
+}
+
+.rst-content code {}
+
+.rst-content pre code {}
+
+/* Allow tables to wrap instead of scrolling */
+.md-typeset table {
+  white-space: normal;
+}
+
+.md-typeset table td,
+.md-typeset table th {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Fix logo visibility */
+.md-header__button.md-logo img {
+  background-color: white;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+/* Style main navigation titles */
+.md-nav--primary>.md-nav__list>.md-nav__item>.md-nav__link,
+.md-nav--primary>.md-nav__list>.md-nav__item>.md-nav__title {
+  font-weight: bold;
+  font-size: 1.05rem;
+  text-decoration: underline;
+  /* text-decoration-thickness: 2px; */
+  line-height: 1.4;
+}
+
+/* footer */
+.md-footer {
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+/* Logo size */
+.md-header .md-logo img {
+  height: 70px;
+  width: auto;
+}
+
+.md-header {
+  background-color: #001E44;
+}
+
+.md-nav__title {
+    display: none;
+}
+
+
+
+
+/* Change L1 nav text color and remove underline */
+.md-header-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  color: #1E407C !important;
+  text-decoration: none !important;
+}
+
+/* Ensure current active L1 nav item also has the correct color and no underline */
+.md-header-nav__link.md-header-nav__link--active,
+.md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--active > .md-nav__link {
+  color: #1E407C !important;
+  text-decoration: none !important;
+}
+
+/* Optional: change link color on hover to maintain consistency */
+.md-header-nav__link:hover,
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link:hover {
+  color: #15305a !important; /* A slightly darker shade for hover effect */
+  text-decoration: none !important;
+}
+
+/* Also target links within the sidebar to ensure consistency if L1 items appear there */
+.md-nav__link {
+    text-decoration: none !important;
+}
+
+/* Search box and header title: white text and icons against dark header */
+.md-header .md-search__input {
+  color: #ffffff !important;
+}
+
+.md-header .md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-header .md-search__icon {
+  color: #ffffff !important;
+}
+
+.md-header__title,
+.md-header__title .md-ellipsis {
+  color: #ffffff !important;
+}
+
+/* Change color of all H1-H6 headers */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  color: #1E407C !important;
+}

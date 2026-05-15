@@ -1,4 +1,4 @@
-# System outages
+# Outage Process Details
 
 ICDS engineers have updateed and expanded the outage protocol to improve recovery time and expand testing. 
 

@@ -20,16 +20,62 @@ Copyright &copy; 2026 The authors
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Scheduled Outage Process" = "index.md" },
-  { "2026" = [
-    { "Software Stack Update 2026-06" = "2026-06.md" },
-    { "Security Advisory 2026-05-07" = "2026-05-07.md" },
-    { "Security Advisory 2026-04-30" = "2026-04-30.md" },
-    { "Planned Outage 2026-01-08" = "2026-01-08.md" },
+  { "User Guide" = [
+    { "Roar User Guide" = "user-guide/index.md" },
+    { "Getting Started" = [
+      { "Tips for Beginners" = "user-guide/getting-started/tips-for-beginners.md" },
+      { "Connecting" = "user-guide/getting-started/connecting.md" },
+      { "FAQ" = "user-guide/getting-started/faq.md" },
+      { "Getting Help" = "user-guide/getting-started/getting-help.md" },
+    ]},
+    { "System Details" = [
+      { "System Overview" = "user-guide/system/system-overview.md" },
+      { "Compute Hardware" = "user-guide/system/compute-hardware.md" },
+    ]},
+    { "Accounts" = [
+      { "Read Credits" = "user-guide/accounts/read-credits.md" },
+      { "Paid Resources" = "user-guide/accounts/paid-resources.md" },
+      { "Managing Compute" = "user-guide/accounts/managing-compute.md" },
+      { "Managing Storage" = "user-guide/accounts/managing-storage.md" },
+    ]},
+    { "File System" = [
+      { "File Storage" = "user-guide/file-system/file-storage.md" },
+      { "Managing Files" = "user-guide/file-system/managing-files.md" },
+      { "Finding Files" = "user-guide/file-system/finding-files.md" },
+      { "Transferring Files" = "user-guide/file-system/transferring-files.md" },
+    ]},
+    { "Software" = [
+      { "Modules" = "user-guide/software/modules.md" },
+      { "Custom Modules" = "user-guide/software/custom-modules.md" },
+      { "Installing from Source" = "user-guide/software/installing-from-source.md" },
+      { "Containers" = "user-guide/software/containers.md" },
+      { "Visual Studio Code" = "user-guide/software/visual-studio-code.md" },
+    ]},
+    { "Packages" = [
+      { "Python" = "user-guide/packages/python.md" },
+      { "R Libraries" = "user-guide/packages/r-libraries.md" },
+      { "Anaconda" = "user-guide/packages/anaconda.md" },
+    ]},
+    { "Running Jobs" = [
+      { "Portal" = "user-guide/running-jobs/portal.md" },
+      { "Slurm Scheduler" = "user-guide/running-jobs/slurm-scheduler.md" },
+      { "Interactive Jobs" = "user-guide/running-jobs/interactive-jobs.md" },
+      { "Batch Jobs" = "user-guide/running-jobs/batch-jobs.md" },
+      { "Resource Requests" = "user-guide/running-jobs/resource-requests.md" },
+    ]},
   ]},
-  { "2025" = [
-    { "Planned Outage 2025-08-13" = "2025-08-13.md" },
-    { "Planned Outage 2025-05-14" = "2025-05-14.md" },
+  { "Service Updates" = [
+    { "Scheduled Outage Process" = "index.md" },
+    { "2026" = [
+      { "Software Stack Update 2026-06" = "2026-06.md" },
+      { "Security Advisory 2026-05-07" = "2026-05-07.md" },
+      { "Security Advisory 2026-04-30" = "2026-04-30.md" },
+      { "Planned Outage 2026-01-08" = "2026-01-08.md" },
+    ]},
+    { "2025" = [
+      { "Planned Outage 2025-08-13" = "2025-08-13.md" },
+      { "Planned Outage 2025-05-14" = "2025-05-14.md" },
+    ]},
   ]},
 ]
 
@@ -107,6 +153,7 @@ features = [
     "navigation.sections",
 
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
+    "navigation.tabs",
 
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
 

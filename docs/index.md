@@ -1,5 +1,6 @@
-# ICDS Service Updates
-
+---
+title: ICDS Service Updates
+---
 ### Outage Process Details
 
 ICDS engineers have updateed and expanded the outage protocol to improve recovery time and expand testing. 

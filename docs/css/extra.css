@@ -182,6 +182,8 @@
 .md-header__title,
 .md-header__title .md-ellipsis {
   color: #ffffff !important;
+  font-size: 1.4rem !important;
+  font-weight: bold;
 }
 
 /* Dark theme: page background */

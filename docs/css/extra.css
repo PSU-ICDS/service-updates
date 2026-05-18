@@ -69,16 +69,30 @@
   background-color: #001E44;
 }
 
+[data-md-color-scheme="default"] .md-header {
+  background-color: #96BEE6 !important;
+}
+
+[data-md-color-scheme="default"] .md-header__title,
+[data-md-color-scheme="default"] .md-header__title .md-ellipsis {
+  color: #001E44 !important;
+}
+
 .md-sidebar--secondary {
   display: none !important;
 }
 
 .md-sidebar--primary {
-  width: 16rem !important;
+  width: 14rem !important;
 }
 
 .md-sidebar--primary .md-sidebar__scrollwrap {
-  width: 16rem !important;
+  width: 14rem !important;
+}
+
+.md-sidebar--primary .md-sidebar__inner {
+  width: 14rem !important;
+  box-sizing: initial;
 }
 
 .md-sidebar--primary .md-nav,

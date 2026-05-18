@@ -49,13 +49,14 @@
 
 .md-nav__link {
   font-size: 0.68rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  line-height: 1.2;
 }
 
 /* footer */
 .md-footer {
-  bottom: 0;
-  width: 100%;
-  z-index: 10;
+  display: none !important;
 }
 
 
@@ -69,7 +70,20 @@
   background-color: #001E44;
 }
 
+.md-tabs {
+  background-color: #001E44;
+  padding-bottom: 0;
+}
+
+.md-main__inner {
+  margin-top: 0.4rem;
+}
+
 [data-md-color-scheme="default"] .md-header {
+  background-color: #96BEE6 !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
   background-color: #96BEE6 !important;
 }
 

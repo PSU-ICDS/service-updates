@@ -1,16 +1,8 @@
 
 [project]
-
-# Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "ICDS Service Updates"
-
-# Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "Historical notes regarding service updates made to the Institute for Computational and Data Sciences service offerings."
-
-# Read more: https://zensical.org/docs/setup/basics/#site_author
+site_name = "ICDS Roar System"
+site_description = "User information for the Roar system hosted by the Institute for Computational and Data Sciences."
 site_author = "Institute for Computational and Data Sciences"
-
-# Read more: https://zensical.org/docs/setup/basics/#site_url
 site_url = "https://docs.icds.psu.edu/updates/"
 
 # Read more: https://zensical.org/docs/setup/basics/#copyright
@@ -44,6 +36,13 @@ nav = [
       { "Finding Files" = "user-guide/file-system/finding-files.md" },
       { "Transferring Files" = "user-guide/file-system/transferring-files.md" },
     ]},
+    { "Running Jobs" = [
+      { "Portal" = "user-guide/running-jobs/portal.md" },
+      { "Slurm Scheduler" = "user-guide/running-jobs/slurm-scheduler.md" },
+      { "Interactive Jobs" = "user-guide/running-jobs/interactive-jobs.md" },
+      { "Batch Jobs" = "user-guide/running-jobs/batch-jobs.md" },
+      { "Resource Requests" = "user-guide/running-jobs/resource-requests.md" },
+    ]},
     { "Software" = [
       { "Modules" = "user-guide/software/modules.md" },
       { "Custom Modules" = "user-guide/software/custom-modules.md" },
@@ -55,13 +54,6 @@ nav = [
       { "Python" = "user-guide/packages/python.md" },
       { "R Libraries" = "user-guide/packages/r-libraries.md" },
       { "Anaconda" = "user-guide/packages/anaconda.md" },
-    ]},
-    { "Running Jobs" = [
-      { "Portal" = "user-guide/running-jobs/portal.md" },
-      { "Slurm Scheduler" = "user-guide/running-jobs/slurm-scheduler.md" },
-      { "Interactive Jobs" = "user-guide/running-jobs/interactive-jobs.md" },
-      { "Batch Jobs" = "user-guide/running-jobs/batch-jobs.md" },
-      { "Resource Requests" = "user-guide/running-jobs/resource-requests.md" },
     ]},
   ]},
   { "Service Updates" = [

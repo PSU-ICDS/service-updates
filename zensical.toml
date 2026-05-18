@@ -23,6 +23,8 @@ nav = [
   { "Scheduled Outage Process" = "index.md" },
   { "2026" = [
     { "Software Stack Update 2026-06" = "2026-06.md" },
+    { "Security Advisory 2026-05-07" = "2026-05-07.md" },
+    { "Security Advisory 2026-04-30" = "2026-04-30.md" },
     { "Planned Outage 2026-01-08" = "2026-01-08.md" },
   ]},
   { "2025" = [
@@ -146,6 +148,8 @@ comsol = "tags/comsol"
 mathematica = "tags/mathematica"
 tecplot = "tags/tecplot"
 schrodinger = "tags/schrodinger"
+security = "tags/security"
+cve = "tags/cve"
 
 # Read more:
 # - https://zensical.org/docs/setup/colors/

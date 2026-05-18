@@ -160,6 +160,7 @@ features = [
 
     # https://zensical.org/docs/setup/navigation/#anchor-following
     "toc.follow",
+    "toc.integrate",
 
     # https://zensical.org/docs/setup/navigation/#navigation-integration
 ]

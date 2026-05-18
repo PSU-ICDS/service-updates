@@ -20,7 +20,6 @@ Copyright &copy; 2026 The authors
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Scheduled Outage Process" = "index.md" },
   { "2026" = [
     { "Software Stack Update 2026-06" = "2026-06.md" },
     { "Security Advisory 2026-05-07" = "2026-05-07.md" },

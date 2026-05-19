@@ -110,12 +110,6 @@
   display: none !important;
 }
 
-@media screen and (max-width: 76.25em) {
-  :root {
-    --md-sidebar-width: 14rem;
-  }
-}
-
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary {
     width: 14rem !important;

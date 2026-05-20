@@ -34,12 +34,14 @@ Post outage ICDS Engineers go through a series of test to show basic connectivit
 
 Includes sample test for the following applications:
 
- | C   | alltest (MPI network latency mapping test) | bash / Slurm submission testing |
- | comsol | cpp | fluent |
- | fortran | gpu nbody | gromacs |
- | java | julia | mathematica |
- | matlab | py_array | python |
- | r | starccm | |
+ |         |             |                                 |
+ |---      |---          |---                              |---
+ | C       | MPI_Testall | bash / Slurm submission testing |
+ | comsol  | cpp         | fluent                          |
+ | fortran | gpu nbody   | gromacs                         |
+ | java    | julia       | mathematica                     |
+ | matlab  | py_array    | python                          |
+ | r       | starccm     |                                 |
 
 Includes user test for the following applications: 
 

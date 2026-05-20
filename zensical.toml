@@ -22,8 +22,10 @@ Copyright &copy; 2026 The authors
 nav = [
   { "2026" = [
     { "Software Stack Update 2026-06" = "2026-06.md" },
+    { "Rolling Outage 2026-05-12" = "2026-05-12.md" },
     { "Security Advisory 2026-05-07" = "2026-05-07.md" },
     { "Security Advisory 2026-04-30" = "2026-04-30.md" },
+    { "Rolling Outage 2026-03-17" = "2026-03-17.md" },
     { "Planned Outage 2026-01-08" = "2026-01-08.md" },
   ]},
   { "2025" = [

@@ -11,7 +11,7 @@ The outage workflow has been updated to make use of serviceNOW and provide track
 
 ![Outage WorkFlow Diagram](../img/ICDS_Outage_workflow.png)
 
-# Rolling Outage Process 
+# Rolling Maintenance Process 
 
 Beginning in March 2026 ICDS will reduce the yearly number of full Roar outages and will instead implement “rolling maintenance” windows. 
 
@@ -25,32 +25,66 @@ Compared to a full outage, users can expect much less impact on workflows. Here 
 
 - Between 5:00-8:00 a.m. on the day of the outage, service nodes will be rebooted, and this could briefly interrupt users’ ability to work with interactive desktop sessions, edit files from submit nodes, or submit jobs. 
 
-- Taking nodes offline in small batches for service does reduce the available cluster resources, and this could result in longer wait times for larger jobs. System performance is monitored throughout rolling maintenance.  
+- Taking nodes offline in small batches for service does reduce the available cluster resources, and this could result in longer wait times for larger jobs. System performance is monitored throughout rolling maintenance periods.  
 
 
-## Post outage test
+# Post outage test
 
 Post outage ICDS Engineers go through a series of test to show basic connectivity and functionaloty of services (i.e. job submission, Slurm, OOD portal, Globus access, science gateways). This will be followed by application test detailed below. 
 
 Includes sample test for the following applications:
 
- |         |             |                                 |
- |---      |---          |---                              |---
- | C       | MPI_Testall | bash / Slurm submission testing |
- | comsol  | cpp         | fluent                          |
- | fortran | gpu nbody   | gromacs                         |
- | java    | julia       | mathematica                     |
- | matlab  | py_array    | python                          |
- | r       | starccm     |                                 |
+<table>
+  <tbody>
+    <tr>
+      <td>C</td>
+      <td>MPI_Testall</td>
+      <td>bash / Slurm submission test</td>
+    </tr>
+    <tr>
+      <td>comsol</td>
+      <td>cpp</td>
+      <td>fluent</td>
+    </tr>
+    <tr>
+      <td>fortran</td>
+      <td>gpu nbody</td>
+      <td>gromacs</td>
+    </tr>
+    <tr>
+      <td>java</td>
+      <td>julia</td>
+      <td>mathematica</td>
+    </tr>
+    <tr>
+      <td>matlab</td>
+      <td>py_array</td>
+      <td>python</td>
+    </tr>
+    <tr>
+      <td>r</td>
+      <td>starccm</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 Includes user test for the following applications: 
 
- - Ansys Fluent job
- - MPI fluid solver
- - Gaussian
- - OpenFOAM
- - COMSOL
- - MATLAB sine_wave 
+<table>
+  <tbody>
+    <tr>
+      <td>Ansys Fluent job</td>
+      <td>MPI fluid solver</td>
+      <td>Gaussian</td>
+    </tr>
+    <tr>
+      <td>OpenFOAM</td>
+      <td>COMSOL</td>
+      <td>MATLAB sine_wave</td>
+    </tr>
+  </tbody>
+</table>
 
 **Your input is valuable**. At the conclusion of every outage, ICDS engineers run extensive use case tests to ensure that the system will work as expected. If your team runs your own post outage tests or if you have ideas for tests you’d like ICDS engineers to run, [please let us know.](mailto:icds@psu.edu?subject=Post-Outage%20Testing%20Feedback)
 

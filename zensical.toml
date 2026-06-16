@@ -21,7 +21,7 @@ Copyright &copy; 2026 The authors
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "2026" = [
-    { "Software Stack Update 2026-06" = "2026-06.md" },
+    { "Software Stack Update 2026-06-29" = "2026-06-29.md" },
     { "Rolling Maintenance 2026-05-12" = "2026-05-12.md" },
     { "Security Advisory 2026-05-07" = "2026-05-07.md" },
     { "Security Advisory 2026-04-30" = "2026-04-30.md" },
